@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
-import "../styles/news.css";
+import "../styles/News.css";
 
 const NewsByCategory = () => {
     const { categorySlug } = useParams();
